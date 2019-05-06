@@ -498,7 +498,43 @@ npm run smoke
 
 
 <a name="git"></a>
-## xx. Working with Git:
-## TODO:
-GIT
-.gitignore
+## 13. Working with Git
+#### 13.1. Create GitHub account:
+https://github.com/join
+#### 13.2. Once logged in create new repository:
+https://github.com/new
+Provide `Repository name` and click `Create repository`.
+#### 13.3. Initialize local git repo:
+Get back to Terminal and type:
+````
+git init
+````
+#### 13.4. Create and configure `.gitignore` file:
+This file is used to list all folders and files which should be ignored by Git.
+````
+touch .gitignore
+open .gitignore
+````
+Add the following lines to the file:
+````
+node_modules
+allure-results
+allure-report
+.git
+.idea
+````
+#### 13.5. Add all files to Git and create first commit:
+````
+git add .
+git commit -m "first commit"
+````
+#### 13.6. Add all files to Git and create first commit:
+````
+git add .
+git commit -m "first commit"
+````
+#### 13.7. Add all files to Git and create first commit:
+````
+git add .
+git commit -m "first commit"
+````
