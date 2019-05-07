@@ -558,7 +558,7 @@ git branch -D {name}
 ````
 4) Switch to another branch:
 ````
-git checkout {mame}
+git checkout {name}
 ````
 5) Commiting changes:
 ````
