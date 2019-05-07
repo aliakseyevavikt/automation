@@ -504,6 +504,7 @@ https://github.com/join
 #### 13.2. Once logged in create new repository:
 https://github.com/new
 Provide `Repository name` and click `Create repository`.
+On the next page you have the instruction how to connect your local repo with the remote one.
 #### 13.3. Initialize local git repo:
 Get back to Terminal and type:
 ````
@@ -533,8 +534,37 @@ git commit -m "first commit"
 git add .
 git commit -m "first commit"
 ````
-#### 13.7. Add all files to Git and create first commit:
+#### 13.7. Connect your local git with remote GitHub repo:
+Get the link from the page you get on GitHub:
 ````
-git add .
-git commit -m "first commit"
+git remote add origin {link}
+````
+#### 13.8. Push your local code to the remote repo:
+````
+git push -u origin master
+````
+#### 13.9. Some git commands to use:
+1) List of branches:
+````
+git branch
+````
+2) Create branch:
+````
+git branch {name}
+````
+3) Delete branch:
+````
+git branch -D {name}
+````
+4) Switch to another branch:
+````
+git checkout {mame}
+````
+5) Commiting changes:
+````
+git commit -m "commit message"
+````
+6) Pushing changes:
+````
+git push
 ````
